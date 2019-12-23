@@ -8,13 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		820145A823A884170066716D /* ZoomInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820145A723A884170066716D /* ZoomInViewController.swift */; };
-		8201B97123AE0BAE00124217 /* orange.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8201B97023AE0BAD00124217 /* orange.jpeg */; };
 		8209346523B06BB10088338F /* pink.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8209346423B06BB10088338F /* pink.jpeg */; };
 		8209346723B06BC70088338F /* haibisukasu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8209346623B06BC70088338F /* haibisukasu.jpg */; };
-		8209346923B06BD10088338F /* haibisukasu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8209346823B06BD10088338F /* haibisukasu.jpg */; };
-		82FBB60723A1FE370080D70E /* haibisukasu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82FBB60623A1FE370080D70E /* haibisukasu.jpg */; };
-		82FBB60923A1FE510080D70E /* pink.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82FBB60823A1FE510080D70E /* pink.jpeg */; };
-		82FBB60B23A1FE700080D70E /* orange.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82FBB60A23A1FE700080D70E /* orange.jpeg */; };
+		8209348923B0A5EC0088338F /* orange.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8209348823B0A5EC0088338F /* orange.jpeg */; };
 		82FBC79C239E182500E0D65F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FBC79B239E182500E0D65F /* AppDelegate.swift */; };
 		82FBC79E239E182500E0D65F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FBC79D239E182500E0D65F /* ViewController.swift */; };
 		82FBC7A1239E182500E0D65F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FBC79F239E182500E0D65F /* Main.storyboard */; };
@@ -23,13 +19,9 @@
 
 /* Begin PBXFileReference section */
 		820145A723A884170066716D /* ZoomInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInViewController.swift; sourceTree = "<group>"; };
-		8201B97023AE0BAD00124217 /* orange.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = orange.jpeg; path = ../icon/orange.jpeg; sourceTree = "<group>"; };
 		8209346423B06BB10088338F /* pink.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pink.jpeg; sourceTree = "<group>"; };
 		8209346623B06BC70088338F /* haibisukasu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haibisukasu.jpg; sourceTree = "<group>"; };
-		8209346823B06BD10088338F /* haibisukasu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haibisukasu.jpg; sourceTree = "<group>"; };
-		82FBB60623A1FE370080D70E /* haibisukasu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = haibisukasu.jpg; path = ../../icon/haibisukasu.jpg; sourceTree = "<group>"; };
-		82FBB60823A1FE510080D70E /* pink.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pink.jpeg; path = ../../icon/pink.jpeg; sourceTree = "<group>"; };
-		82FBB60A23A1FE700080D70E /* orange.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = orange.jpeg; path = ../../icon/orange.jpeg; sourceTree = "<group>"; };
+		8209348823B0A5EC0088338F /* orange.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpeg; sourceTree = "<group>"; };
 		82FBC798239E182500E0D65F /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FBC79B239E182500E0D65F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82FBC79D239E182500E0D65F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,10 +46,9 @@
 			children = (
 				82FBC79A239E182500E0D65F /* SlideshowApp */,
 				82FBC799239E182500E0D65F /* Products */,
-				8201B97023AE0BAD00124217 /* orange.jpeg */,
 				8209346423B06BB10088338F /* pink.jpeg */,
-				8209346823B06BD10088338F /* haibisukasu.jpg */,
 				8209346623B06BC70088338F /* haibisukasu.jpg */,
+				8209348823B0A5EC0088338F /* orange.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,9 +66,6 @@
 				82FBC79B239E182500E0D65F /* AppDelegate.swift */,
 				82FBC79D239E182500E0D65F /* ViewController.swift */,
 				82FBC79F239E182500E0D65F /* Main.storyboard */,
-				82FBB60A23A1FE700080D70E /* orange.jpeg */,
-				82FBB60823A1FE510080D70E /* pink.jpeg */,
-				82FBB60623A1FE370080D70E /* haibisukasu.jpg */,
 				82FBC7A4239E182600E0D65F /* LaunchScreen.storyboard */,
 				82FBC7A7239E182600E0D65F /* Info.plist */,
 				820145A723A884170066716D /* ZoomInViewController.swift */,
@@ -145,13 +133,9 @@
 			files = (
 				82FBC7A6239E182600E0D65F /* LaunchScreen.storyboard in Resources */,
 				82FBC7A1239E182500E0D65F /* Main.storyboard in Resources */,
-				82FBB60723A1FE370080D70E /* haibisukasu.jpg in Resources */,
-				82FBB60B23A1FE700080D70E /* orange.jpeg in Resources */,
-				82FBB60923A1FE510080D70E /* pink.jpeg in Resources */,
-				8201B97123AE0BAE00124217 /* orange.jpeg in Resources */,
 				8209346523B06BB10088338F /* pink.jpeg in Resources */,
+				8209348923B0A5EC0088338F /* orange.jpeg in Resources */,
 				8209346723B06BC70088338F /* haibisukasu.jpg in Resources */,
-				8209346923B06BD10088338F /* haibisukasu.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
