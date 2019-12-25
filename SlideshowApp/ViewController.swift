@@ -26,7 +26,7 @@ class ViewController: UIViewController {
             // 表示している画像の番号を元に画像を表示する
             displayImage()
         } else {
-            displayImageNo = 0
+           displayImageNo = 0
             displayImage()
         }
        
@@ -49,6 +49,7 @@ class ViewController: UIViewController {
             // 再生・停止ボタンタップ時に進むボタン・戻るボタンのタップ非表示
             nextButton.isEnabled = false
             backButton.isEnabled = false
+
             // ボタンの名前を停止とする
             switchButton.setTitle("停止", for: .normal)
           
@@ -79,16 +80,7 @@ class ViewController: UIViewController {
             displayImage()
             print(displayImageNo) // 取得インデックスの確認
             
-            // 進むボタンの内容を行う
-            if displayImageNo < imageNameArray.count - 1 {
-                // 表示している画像の番号を1増やす
-                displayImageNo += 1
-                // 表示している画像の番号を元に画像を表示する
-                displayImage()
-            } else {
-                displayImageNo = 0
-                displayImage()
-            }
+          
         }
     }
     
@@ -116,7 +108,7 @@ class ViewController: UIViewController {
         let image = UIImage(named: "orange.jpeg")
         imageview.image = image
         
-        self.timer = Timer.scheduledTimer(timeInterval: 1.5, target: self, selector: #selector(updateTimer(_:)), userInfo: nil, repeats: true)
+        
         
         }
     
