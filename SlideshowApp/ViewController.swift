@@ -46,6 +46,7 @@ class ViewController: UIViewController {
         if self.timer == nil {
             // タイマーを設定
             self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(updateTimer(_:)), userInfo: nil, repeats: true)
+            
             // 再生・停止ボタンタップ時に進むボタン・戻るボタンのタップ非表示
             nextButton.isEnabled = false
             backButton.isEnabled = false
@@ -58,12 +59,13 @@ class ViewController: UIViewController {
             self.timer.invalidate()
             // nil にして再び再生(nil の時にタイマー生成)
             self.timer = nil
+           
             // 再生・停止ボタンタップ時に進むボタン・戻るボタンのタップ非表示
             nextButton.isEnabled = true
             backButton.isEnabled = true
             // ボタンの名前を再生とする
             switchButton.setTitle("再生", for: .normal)
-           
+        
         }
         }
     // #selectorで呼び出される関数
@@ -109,7 +111,6 @@ class ViewController: UIViewController {
         imageview.image = image
         
         
-        
         }
     
    
@@ -134,6 +135,14 @@ class ViewController: UIViewController {
    
     @IBAction func tapAction(_ sender: Any) {
         self.performSegue(withIdentifier: "tapAction", sender: nil)
+        if self.timer != nil {
+            // タイマーを停止
+            self.timer.invalidate()
+            // nil にして再び再生(nil の時にタイマー生成)
+            self.timer = nil
+             switchButton.setTitle("再生", for: .normal)
+        }
+        
     }
    
 }

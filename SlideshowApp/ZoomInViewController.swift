@@ -9,15 +9,19 @@
 import UIKit
 
 class ZoomInViewController: UIViewController {
+    var timer: Timer!
     
     @IBOutlet weak var imageview: UIImageView!
     var selectedImg: UIImage!
+    
+    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+       
         // Image Viewに画像を設定
         imageview.image = selectedImg
     }

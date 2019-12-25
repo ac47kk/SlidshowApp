@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,13 +15,13 @@
             <objects>
                 <viewController storyboardIdentifier="unwind" id="BYZ-38-t0r" customClass="ViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pt9-Wc-zJA">
-                                <rect key="frame" x="30" y="628" width="315" height="100"/>
+                                <rect key="frame" x="30" y="468" width="260" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="3So-Rc-KVG"/>
+                                    <constraint firstAttribute="height" constant="50" id="B9J-GN-hYm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="再生/停止"/>
@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" image="haibisukasu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qWM-Aw-ZNw">
-                                <rect key="frame" x="30" y="94" width="315" height="300"/>
+                                <rect key="frame" x="30" y="70" width="260" height="300"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="B2K-9x-15J"/>
@@ -40,9 +40,9 @@
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="347-9T-K2J">
-                                <rect key="frame" x="30" y="394" width="51" height="150"/>
+                                <rect key="frame" x="30" y="370" width="51" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="jB6-hp-mIb"/>
+                                    <constraint firstAttribute="height" constant="50" id="Eg1-t6-Trr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="次へ"/>
@@ -51,9 +51,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6U-zq-3aX">
-                                <rect key="frame" x="294" y="394" width="51" height="150"/>
+                                <rect key="frame" x="239" y="370" width="51" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="bx3-mC-2sU"/>
+                                    <constraint firstAttribute="height" constant="50" id="1YV-mH-Qkj"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="戻る"/>
@@ -100,18 +100,18 @@
             <objects>
                 <viewController id="J1m-f8-mXy" customClass="ZoomInViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GEM-tf-qIc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haibisukasu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PhF-ng-bIh">
-                                <rect key="frame" x="30" y="94" width="315" height="500"/>
+                                <rect key="frame" x="30" y="70" width="260" height="500"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="500" id="7Cy-pe-JKz"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwK-RN-iNE">
-                                <rect key="frame" x="30" y="594" width="315" height="100"/>
+                                <rect key="frame" x="30" y="570" width="260" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="8LN-lI-UXE"/>
                                 </constraints>
